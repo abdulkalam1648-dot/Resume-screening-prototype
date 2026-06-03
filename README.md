@@ -33,6 +33,31 @@ This prototype can later evolve into a **fairness-aware system** that checks for
 - SVM: High precision with linear kernel
 - Accuracy comparison visualized with bar charts
 
+  ## 🔮 Future Work
+This prototype can be expanded and improved in several ways:
+
+1. **Fairness & Bias Detection**  
+   - Integrate fairness metrics to check if the model disproportionately rejects resumes based on gendered words, education background, or other sensitive attributes.  
+   - Add explainable AI (XAI) techniques to make predictions transparent.
+
+2. **Larger Dataset**  
+   - Train on hundreds or thousands of resumes to improve generalization.  
+   - Use open datasets or anonymized resumes to build a more robust model.
+
+3. **Deployment**  
+   - Convert the notebook into a web app using Flask/Django.  
+   - Allow recruiters to upload resumes and get instant predictions.  
+   - Add a dashboard with visualizations (accuracy charts, fairness metrics).
+
+4. **Advanced NLP**  
+   - Move beyond keyword frequency to embeddings (Word2Vec, BERT).  
+   - Capture semantic meaning of resumes for smarter classification.
+
+5. **Integration**  
+   - Connect with LinkedIn or job portals for real‑world testing.  
+   - Explore multilingual resume screening for global recruitment.
+
+
 ## 🚀 How to Run
 1. Clone this repo:
    ```bash
