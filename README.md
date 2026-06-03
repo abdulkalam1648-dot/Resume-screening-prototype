@@ -37,3 +37,8 @@ This prototype can later evolve into a **fairness-aware system** that checks for
 1. Clone this repo:
    ```bash
    git clone https://github.com/yourusername/AI-Resume-Screener.git
+
+
+   <img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/22e5949c-8f80-4036-90d0-1598c058cf58" />
+<img width="567" height="435" alt="image" src="https://github.com/user-attachments/assets/7658d029-5f91-44b4-bbef-a816c4c51da3" />
+
