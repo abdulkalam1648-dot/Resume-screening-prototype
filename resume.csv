@@ -1,0 +1,37 @@
+import pandas as pd
+
+data = {
+    "resume_text": [
+        "Python, Machine Learning, Data Science projects",
+        "Customer service, sales, communication",
+        "Deep Learning, NLP, AI research",
+        "Manual labor, warehouse, packing",
+        "SQL, Tableau, Business Intelligence",
+        "Java, Spring Boot, backend development",
+        "Retail cashier, stocking, inventory",
+        "Cloud computing, AWS, Docker, Kubernetes",
+        "Delivery driver, logistics, route planning",
+        "Statistics, R programming, predictive modeling",
+        "Graphic design, Photoshop, Illustrator",
+        "C++, embedded systems, robotics",
+        "Hospitality, hotel management, guest services",
+        "Cybersecurity, penetration testing, network defense",
+        "Construction, heavy machinery, site work",
+        "Business analysis, Excel, Power BI",
+        "Teaching, classroom management, lesson planning",
+        "Blockchain, smart contracts, Ethereum",
+        "Gardening, landscaping, outdoor maintenance",
+        "Kaggle competitions, published ML research"
+    ],
+    "label": [
+        "shortlist", "reject", "shortlist", "reject", "shortlist",
+        "shortlist", "reject", "shortlist", "reject", "shortlist",
+        "reject", "shortlist", "reject", "shortlist", "reject",
+        "shortlist", "reject", "shortlist", "reject", "shortlist"
+    ]
+}
+
+df = pd.DataFrame(data)
+df.to_csv("resumes.csv", index=False)
+
+print("CSV file created with 20 resumes: resumes.csv")
